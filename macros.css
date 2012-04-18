@@ -1,0 +1,66 @@
+.macroView 
+{
+  border: 1px solid #555;
+  }
+
+.macroView li
+{ 
+  background: #EEE;
+  padding: 0;
+  margin: 0;
+  }
+
+.savedMacroView 
+{
+  border: 1px solid #333;
+  }
+
+.savedMacroView li
+{ 
+  background: #AAA;
+  padding: 0;
+  margin: 0;
+  }
+
+.activeMacro
+{ 
+  border: 2px solid #555;
+  background: #FFF;
+  font-style: bold;
+  } 
+
+.activeMacro li 
+{ 
+  background: #FFF;
+  padding: 0;
+  margin: 0;
+  } 
+
+
+.prepForDeleteMacro
+{
+  border: 2px solid #555;
+  background: #F00;
+  font-style: bold;
+  }
+
+.prepForDeleteMacro li
+{
+  background: #F22;
+  padding: 0;
+  margin: 0;
+  }
+
+.prepForSaveMacro
+{
+  border: 2px solid #555;
+  background: #0F0;
+  font-style: bold;
+  }
+
+.prepForSaveMacro li
+{
+  background: #2F2;
+  padding: 0;
+  margin: 0;
+  }

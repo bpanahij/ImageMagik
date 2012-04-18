@@ -1,0 +1,189 @@
+body 
+{ 
+  font-size: small;
+  background: #A89166;
+  }
+
+#upload_target
+{ 
+  width: 100px;
+  height: 100px;
+  visibility: hidden;
+}
+
+#navDiv 
+{ 
+  float: left;
+  height: 700px;
+  }
+
+#logo 
+{ 
+  display: block;
+  height: 100px;
+  width: 100px;
+  margin: 15px;
+  border: 1px solid #927B51;
+  }
+
+#nav
+{ 
+  float: left;
+  height: 700px;
+  margin: 0;
+  padding-left: 20px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border: none;
+  list-style: none;
+  background: url(nav_bg.gif) repeat-y top right;
+  }
+
+#nav li 
+{ 
+  display: block;
+  margin: 0;
+  margin-right: 1px;
+  margin-top: 5px;
+  padding: 0;
+  border: none;
+  font-family: "Lucida Grande", sans-serif;
+  font-size: 150%;
+  }
+  
+.tabOff  
+{
+  clear: both;
+  display: block;
+  padding: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0;
+  margin-right: 0px;
+  color: #555;
+  text-decoration: none;
+  border: 1px solid #927B51;
+  border-right: none;
+  background: #BCDD5A;
+  text-align: right;
+  }
+
+#nav a.tabOff:hover
+{ 
+  color: #111;
+  background: #927B51;
+  }
+
+.tabOn 
+{ 
+  clear: both;
+  display: block;
+  padding: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0;
+  margin-right: -1px;
+  color: #111;
+  text-decoration: none;
+  border: 1px solid #927B51;
+  border-right: none;
+  background: #80C31C;
+  text-align: right;
+  }
+
+#viewerDiv
+{ 
+  float: left;
+  min-height: 500px;
+  width: 70%;
+  border: 1px solid #927B51;
+  border-left: none;
+  background: #80C31C;
+}
+
+#statusDiv
+{ 
+  height: 50px;
+  width: auto;
+  margin: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 5px;
+  text-align: right;
+}
+
+.userName
+{ 
+  color: #BCDD5A;
+  font-size: 140%;
+  }
+
+#menuDiv
+{ 
+  height: 50px;
+  width: auto;
+  margin: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 5px;
+  text-align: right;
+}
+
+#view
+{ 
+  clear: both;
+  min-height: 400px;
+  width: auto;
+  margin: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border: 1px solid #927B51;
+  background: #BCDD5A;
+ }
+
+#uploadView
+{ 
+  margin: 20px;
+  background: #BCDD5A;
+}
+
+#imagesView
+{ 
+  width: 100%; 
+  height: 100%;
+  background: #BCDD5A;
+}
+
+#editView
+{ 
+  width: 100%; 
+  height: 100%;
+  background: #BCDD5A;
+}
+
+#macrosView
+{ 
+  width: 100%; 
+  height: 100%;
+  background: #BCDD5A;
+}
+
+#shareView
+{ 
+  width: 100%; 
+  height: 100%;
+  background: #BCDD5A;
+}
+
+#imageUpload
+{
+  width: 100%;
+  height: 100%;
+  border: 0px solid #111;
+  }
+
+#imageUpload p img
+{ 
+  float: left;
+  }

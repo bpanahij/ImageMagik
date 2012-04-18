@@ -1,0 +1,19 @@
+.smallImage 
+{ 
+  width: 100px;
+  border: 1px solid #111;
+  margin: 5px;
+ }
+
+.smallImageH 
+{ 
+  width: 100px;
+  border: 5px solid #80C31C;
+  margin: 5px;
+ }
+
+.largeImage
+{ 
+  border: 5px solid #80C31C;
+  margin: auto;
+}

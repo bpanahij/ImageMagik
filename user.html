@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+    <title>Image Hosting</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <style type="text/css">
+      @import url("users.css");
+      @import url("images.css");
+      @import url("macros.css");
+      @import url("edit.css");
+    </style>
+    <SCRIPT type="text/javascript" src="common.js" defer="true"></SCRIPT>
+    <SCRIPT type="text/javascript" src="menu.js" defer="true"></SCRIPT>
+    <SCRIPT type="text/javascript" src="upload.js" defer="true"></SCRIPT>
+    <SCRIPT type="text/javascript" src="login.js" defer="true"></SCRIPT>
+    <SCRIPT type="text/javascript" src="images.js" defer="true"></SCRIPT>
+    <SCRIPT type="text/javascript" src="edit.js" defer="true"></SCRIPT>
+    <SCRIPT type="text/javascript" src="macros.js" defer="true"></SCRIPT>
+  </head>
+  <body>
+    <div id="navDiv">
+      <ul id="nav">
+	<img id="logo" src="imageGenerator.php"/>
+	<li id="upload"><a class="tabOff" href="#" onClick="changePage('upload')">upload</a></li>
+	<li id="images"><a class="tabOn" href="#" onClick="changePage('images')">images</a></li>
+	<li id="edit"><a class="tabOff" href="#" onClick="changePage('edit')">edit image</a></li>	
+	<li id="macros"><a class="tabOff" href="#" onClick="changePage('macros')">macros</a></li>
+	<li id="savedMacros"><a class="tabOff" href="#" onClick="changePage('savedMacros')">saved macros</a></li>
+      </ul>
+    </div>
+    <div id="viewerDiv">
+      <div id="statusDiv">
+	<input id="username" type="text"/><input id="password" type="text"/><input type="button" value="login" onClick="loginUser()"/>
+      </div>
+      <div id="view">
+      </div>
+      <div id="menuDiv">
+      </div>
+    </div>
+    <iframe id="upload_target" name="upload_target" src="#"></iframe>
+  </body>
+</html>
