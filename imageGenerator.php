@@ -1,6 +1,6 @@
 <?php
 $im = new Imagick();
-$command = $_POST["command"];
+//$command = $_POST["command"];
 $im->newPseudoImage(100, 100, "pattern:checkerboard");
 $im->setImageFormat('jpg');
 $im->setImageVirtualPixelMethod(Imagick::VIRTUALPIXELMETHOD_TRANSPARENT);
