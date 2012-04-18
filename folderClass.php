@@ -1,10 +1,11 @@
 <?php
+require_once('db_params.php');
 class folders
 {
-  private $DATABASE = "jason";
-  private $DBUSER = "root";
-  private $DBPASS = "panahi";
-  private $HOST = "127.0.0.1";
+  private $DATABASE = DBNAME;
+  private $DBUSER = DBUSER;
+  private $DBPASS = DBPASS;
+  private $HOST = HOST;
   protected $user_id;
   protected $folders;
   protected $errors;
